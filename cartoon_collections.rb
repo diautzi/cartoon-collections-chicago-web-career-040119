@@ -41,10 +41,10 @@ end
 #   elsif array.include?("camembert")
 #   end
 # end
-        # second option with array.find method
-# def find_the_cheese(cheese)
-#   cheese_types = ["cheddar", "gouda", "camembert"]
-#   cheese.find do |cheese|
-#     cheese_types.include?(cheese)
-#   end
-# end
+        second option with array.find method
+def find_the_cheese(cheese)
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese.find do |cheese|
+    cheese_types.include?(cheese)
+  end
+end
