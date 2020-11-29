@@ -3,22 +3,22 @@ def roll_call_dwarves(array)
   array.each_with_index do |word, index|
     puts "#{index +1}.#{word}"
   end
-  end
+end
 
 def summon_captain_planet(array)
-   array.collect do |word|
+   array.map do |word|
     word.capitalize + "!"
   end
 end
 
-        #  using array.any? to ckeck length of words in array
+#  using array.any? to ckeck length of words in array
 def long_planeteer_calls(array)
   array.any? do |word|
     word.size > 4
   end
 end
 
-        # second option with conditionals
+# second option with conditionals
 # def long_planeteer_calls(array)
 #   answer = false
 #   array.each do |call|
@@ -38,7 +38,7 @@ def find_the_cheese(array)
     return "cheddar"
   elsif array.include?("gouda")
     return "gouda"
-  elsif array.include?("camambert")
+  elsif array.include?("camembert")
   end
 end
         # second option with array.find method
