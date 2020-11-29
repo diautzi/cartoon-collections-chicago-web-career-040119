@@ -42,7 +42,7 @@ end
 #   end
 # end
   
-  second option with array.find method
+# second option with array.find method
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese.find do |cheese|
